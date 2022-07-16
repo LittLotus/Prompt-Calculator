@@ -1,8 +1,9 @@
 function myCalculator(){
-
+    var num1 = Number(prompt("Type of your first number"))
+    
 var operation = prompt("Which operation would you like to perform? Choose one:\n +  -  /  *  %")
 
-var num1 = Number(prompt("Type of your first number"))
+
 var num2 = Number(prompt("Type of your second number"))
 
 if (operation == "+"){
